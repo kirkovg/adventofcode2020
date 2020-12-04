@@ -7,4 +7,17 @@
     <groupId>com.gjk</groupId>
     <artifactId>adventofcode2020</artifactId>
     <version>1.0</version>
+
+    <properties>
+        <maven.compiler.source>1.11</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>30.0-jre</version>
+        </dependency>
+    </dependencies>
 </project>
